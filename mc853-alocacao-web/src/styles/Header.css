@@ -1,0 +1,33 @@
+#header {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    background: #333e99;
+    width: 100%;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+#header .unicamp-logo {
+    padding: 8px;
+    height: var(--header-height);
+}
+
+#header .header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+#header .h-btn {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    min-width: 40px;
+    padding: 0 10px;
+}
+
+#header .h-btn:hover {
+    text-decoration: underline;
+}

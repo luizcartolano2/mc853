@@ -1,0 +1,127 @@
+#cronograma-semanal {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    padding: 30px;
+}
+
+#cronograma-semanal h2 {
+    width: 100%
+}
+
+#cronograma-semanal .botoes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#cronograma-semanal .botoes > * {
+    height: 40px;
+    margin: 10px 15px;
+}
+
+#cronograma-semanal table {
+    align-self: center;
+    border-collapse: collapse;
+    width: 800px;
+    margin: 15px;
+}
+
+#cronograma-semanal button {
+    padding: 0 15px;
+}
+
+#cronograma-semanal .shaddow {
+    text-shadow: 0 0 25px #0003;
+    padding-top: 50px;
+}
+
+th, td {
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+td:not(:first-child) {
+    border: 1px solid #ddd;
+}
+
+td:first-child, th:first-child {
+    width: 50px;
+}
+
+.today{
+    background-color: red;
+    border-radius: 50%;
+}
+
+.evento {
+    position: absolute;
+    padding: 3px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 11px;
+    color: rgb(141, 0, 0);
+    background-color: rgba(240, 105, 96, .50);
+    border-left: 2px solid rgb(255, 75, 75);
+}
+
+.evento p{
+    padding: 0;
+    margin: 0;
+}
+.evento p:nth-child(2){
+    font-weight: 600;
+}
+
+.horario {
+    transform: translateY(-50%);
+    text-align: right;
+    font-size: 0.8em;
+}
+
+.vermelho {
+    color: #8a1010;
+    background-color: #db28288c;
+    border-left: 2px solid #db2828;
+}
+
+.alaranjado {
+    color: #7d390c;
+    background-color: #f2711c9e;
+    border-left: 2px solid #f2711c;
+}
+
+.amarelo {
+    color: #52520394;
+    background-color: #ecec1494;
+    border-left: 2px solid #bfbf0694;
+}
+
+.verde {
+    color: #074416;
+    background-color: #21ba45a1;
+    border-left: 2px solid #21ba45;
+}
+
+.azul {
+    color: #084c80;
+    background-color: #2185d09c;
+    border-left: 2px solid #2185d0;
+}
+
+.anil {
+    color: #520d69;
+    background-color: #6435c98c;
+    border-left: 2px solid #a333c8;
+}
+
+.violeta {
+    color: #3c044e;
+    background-color: #a333c88f;
+    border-left: 2px solid #a333c8;
+}

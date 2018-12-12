@@ -1,0 +1,18 @@
+{
+    "port": 9001,
+    "documentationPort": 5000,
+    "cors": {
+        "origin": "*",
+        "exposedHeaders": [
+            "total-count"
+        ],
+        "optionsSuccessStatus": 200
+    },
+    "redis": {
+        "host": "redis-service",
+        "port": 6379
+    },
+    "auth": {
+        "expireTime": "1h"
+    }
+}

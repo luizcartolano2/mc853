@@ -1,0 +1,16 @@
+:root {
+    --header-height: 60px;
+    height: 100%;
+}
+
+a {
+    outline: 0;
+}
+
+body.loading * {
+    cursor: wait;
+}
+
+* {
+    color: #444;
+}

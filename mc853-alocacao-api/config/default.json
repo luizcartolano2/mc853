@@ -1,0 +1,25 @@
+{
+    "port": 9001,
+    "documentationPort": 5000,
+    "cors": {
+        "origin": "*",
+        "exposedHeaders": [
+            "total-count",
+            "content-type"
+        ],
+        "optionsSuccessStatus": 200
+    },
+    "redis": {
+        "host": "redis-service",
+        "port": 6379
+    },
+    "auth": {
+        "expireTime": "1h"
+    },
+    "mongo": {
+        "user": "",
+        "password": "",
+        "timeout": 10000,
+        "url": "localhost:27017"
+    }
+}

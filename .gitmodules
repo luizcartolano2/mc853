@@ -1,6 +1,0 @@
-[submodule "mc853-alocacao-web"]
-	path = mc853-alocacao-web
-	url = ssh://git@gitlab.ic.unicamp.br:2222/ra151196/mc853-alocacao-web.git
-[submodule "mc853-alocacao-api"]
-	path = mc853-alocacao-api
-	url = ssh://git@gitlab.ic.unicamp.br:2222/ra151196/mc853-alocacao-api.git

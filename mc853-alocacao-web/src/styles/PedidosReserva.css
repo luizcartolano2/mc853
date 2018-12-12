@@ -1,0 +1,40 @@
+#pedidos-reserva {
+    padding: 30px;
+}
+
+#pedidos-reserva .lista-pedidos li {
+    border: rgb(184, 184, 184) 1px solid;
+    border-radius: 4px;
+    margin: 5px;
+    display: block;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+}
+
+.pedido-nome {
+    grid-column: 1 / span 1;
+}
+
+.pedido-data {
+    grid-column: span 1;
+    text-align: center;
+}
+
+.pedido-botao {
+    margin: 0 5px;
+    grid-column: span 1;
+}
+
+.pedido-responsavel {
+    grid-column: 1 / span 5;
+    margin: 0;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: .8em;
+}
+
+.pedido-descricao {
+    font-size: .8em;
+    grid-column: 1 / span 5;
+}
